@@ -5,7 +5,8 @@ export const actionConstants = {
     GET_ERROR : 'GET_ERROR',
     GET_REJECT : 'GET_REJECT',
     GET_PROGRESS : 'GET_PROGRESS',
-    GET_SETLE: 'GET_SETLE'
+    GET_SETLE: 'GET_SETLE',
+    GET_SORT: 'GET_SORT'
 }
 export const getRequest = ()=>({
     type: actionConstants.GET_REQUEST,

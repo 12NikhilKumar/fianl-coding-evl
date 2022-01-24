@@ -4,7 +4,7 @@
       "name": "nikhil",
       "date": "22",
       "purpose": "flat",
-      "status": "pending",
+      "status": "settle",
       "amount": "5000",
       "id": 1
     },
@@ -20,7 +20,7 @@
       "name": "nitish",
       "date": "30",
       "purpose": "project",
-      "status": "pending",
+      "status": "reject",
       "amount": "2000",
       "id": 3
     },
@@ -31,6 +31,22 @@
       "status": "pending",
       "amount": "9997",
       "id": 4
+    },
+    {
+      "name": "roshan",
+      "date": "10",
+      "purpose": "fees",
+      "status": "in-progress",
+      "amount": "1000000",
+      "id": 5
+    },
+    {
+      "name": "sachin",
+      "date": "20",
+      "purpose": "medical",
+      "status": "pending",
+      "amount": "2000000",
+      "id": 6
     }
   ]
 }

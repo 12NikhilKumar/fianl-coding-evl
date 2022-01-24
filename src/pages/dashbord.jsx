@@ -50,7 +50,8 @@ export const Dashboard = ()=>{
     },[dispatch])
     return (
         <div>
-        {data?.map((item)=>(
+            {isLoading?(<h1>loding</h1>):
+        data?.map((item)=>(
             <Table key={item.id} name={item.name} date={item.date} status={item.status} purpose={item.purpose} amount={item.amount} />
         ))}
         </div>
